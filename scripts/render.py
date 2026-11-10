@@ -1,5 +1,8 @@
 """渲染层：结构化剧情 -> 纯文本 txt 文件树 + 总索引。"""
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import re

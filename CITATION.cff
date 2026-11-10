@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "原神剧情文本库（gi-text）"
+abstract: >-
+  从原神 BWIKI 抓取全部任务剧情，按「任务类型 → 幕 → 子任务」三级结构整理为纯文本的数据集：
+  2091 篇 txt，剧情正文约 661 万字。剧情文本的整理与编排按 CC BY-NC-SA 4.0 提供
+  （游戏原文版权归米哈游所有，本仓库不主张权利）；抓取与渲染代码按 GPL-3.0-or-later 提供。
+  两类许可互不外溢，详见仓库根目录 LICENSE.md 与 NOTICE.md。
+authors:
+  - family-names: AFewMoon
+version: 0.1.0
+date-released: "2026-11-10"
+repository-code: "https://github.com/AFewMoon/gi-text"
+url: "https://github.com/AFewMoon/gi-text"
+license: "CC-BY-NC-SA-4.0"
+keywords:
+  - Genshin Impact
+  - 原神
+  - 剧情文本
+  - 游戏台词
+  - BWIKI
+  - dataset

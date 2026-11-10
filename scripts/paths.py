@@ -1,5 +1,8 @@
 """路径与文件名安全化（Windows 友好）。"""
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import hashlib

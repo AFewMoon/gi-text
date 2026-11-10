@@ -1,5 +1,8 @@
 """目录发现：用 SMW 语义查询枚举全部任务与幕级页面，产出 data/catalog.json。"""
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import datetime as _dt

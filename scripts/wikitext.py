@@ -5,6 +5,9 @@
 - 未知模板不静默吞掉，记入计数器，最后汇总到 report/unknown_templates.txt。
 """
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import html as _html

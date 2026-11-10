@@ -116,6 +116,26 @@ report/
 - **想改目录分组**：调整 `config.py` 的 `TYPE_TO_CATEGORY`，或 `scripts/discover.py` 的 `fallback_folder()`（无系列任务时的兜底分组：活动按版本、其他按地区）。
 - **改回 Markdown**：只需改 `scripts/render.py` 的 `format_line()` / `render_script()` 与写入后缀，其余分层不受影响。
 
+## 许可
+
+本仓库不是单一作品，三类材料分别授权，互不外溢：
+
+| 范围 | 协议 |
+| --- | --- |
+| `scripts/`、`config.py` | [GPL-3.0-or-later](LICENSES/GPL-3.0-or-later.txt) |
+| `output/` 剧情文本整理产物 | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) |
+| 文档（`README.md`、`AGENTS.md`、`NOTICE.md`） | CC BY-NC-SA 4.0 |
+
+- 想复用/改抓取脚本 → 按 GPL-3.0 用，包括商业用途。
+- 想用剧情文本 → 按 CC BY-NC-SA 4.0 用：**署名 + 非商业 + 相同方式共享**。注意 `output/` 用这个协议不是自选，而是 BWIKI 的 ShareAlike 义务（详见 [`LICENSE.md`](LICENSE.md)）。
+- 代码与 txt 是 GPLv3 第 5 条意义上的**聚合**，各自协议只作用于自己那部分；但**请勿把两者打包成单一发行物**，否则 NC 与 GPL 的商用授权会冲突。
+
+完整映射与理由见 [`LICENSE.md`](LICENSE.md)，权利归属与免责见 [`NOTICE.md`](NOTICE.md)。
+
 ## 版权
 
-剧情文本来自 原神 BWIKI（CC BY-NC-SA 4.0），版权归米哈游 / 原神项目组所有，本项目仅做个人学习与检索用途。
+剧情文本抓取自 [原神 BWIKI](https://wiki.biligame.com/ys)，游戏原文（台词、任务名、旁白）的著作权归米哈游所有：
+
+> © All rights reserved by miHoYo. Other properties belong to their respective owners.
+
+本仓库不对游戏原文主张任何权利，仅对整理、排版与结构化编排部分按 CC BY-NC-SA 4.0 提供。米哈游并未授权本项目，其对二次创作的态度与署名要求、BWIKI 的六项署名要素，均见 [`NOTICE.md`](NOTICE.md)。

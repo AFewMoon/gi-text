@@ -1,5 +1,8 @@
 """全局配置：站点地址、请求头、限速、目录映射。"""
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 from pathlib import Path

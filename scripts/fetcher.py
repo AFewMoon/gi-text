@@ -1,5 +1,8 @@
 """正文抓取与本地缓存：批量取 wikitext，按标题哈希落盘，支持断点续跑。"""
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import hashlib

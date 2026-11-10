@@ -1,5 +1,8 @@
 """剧情提取：从任务页 wikitext 中抽出「任务剧情」章节的台词 / 选项 / 旁白。"""
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import re

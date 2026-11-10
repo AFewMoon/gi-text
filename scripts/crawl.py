@@ -8,6 +8,9 @@
     python scripts/crawl.py --limit 50      # 只抓前 50 页（调试用）
 """
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import argparse

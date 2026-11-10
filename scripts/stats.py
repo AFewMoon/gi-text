@@ -8,6 +8,9 @@
     python scripts/stats.py --output x.txt   # 写到指定路径
 """
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import argparse

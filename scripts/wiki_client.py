@@ -9,6 +9,9 @@
 限速、重试、请求头集中在这里，其它模块禁止自行发请求。
 """
 
+# Copyright (c) 2026 AFewMoon
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from __future__ import annotations
 
 import time
