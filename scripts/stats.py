@@ -3,7 +3,7 @@
 只读 output/ 下已渲染的 txt，不依赖网络与 cache。
 
 用法：
-    python scripts/stats.py                  # 生成 report/字数统计.txt
+    python scripts/stats.py                  # 生成 reports/字数统计.txt
     python scripts/stats.py --top 50         # 全库角色榜只列前 50
     python scripts/stats.py --output x.txt   # 写到指定路径
 """
@@ -520,7 +520,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=config.STATS_TOP_SPEAKERS,
         help=f"全库角色榜条数（默认 {config.STATS_TOP_SPEAKERS}）",
     )
-    parser.add_argument("--output", default=None, help="报告路径，默认 report/字数统计.txt")
+    parser.add_argument("--output", default=None, help="报告路径，默认 reports/字数统计.txt")
     return parser.parse_args(argv)
 
 

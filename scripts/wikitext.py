@@ -2,7 +2,7 @@
 
 设计原则：
 - 只保留人可读的文字，模板参数按「语义」取舍，而不是无脑丢弃或保留；
-- 未知模板不静默吞掉，记入计数器，最后汇总到 report/unknown_templates.txt。
+- 未知模板不静默吞掉，记入计数器，最后汇总到 reports/unknown_templates.txt。
 """
 
 # Copyright (c) 2026 AFewMoon
